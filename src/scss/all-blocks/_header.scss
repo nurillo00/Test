@@ -1,0 +1,45 @@
+.header {
+    padding: 50px 0;
+    margin-bottom: 79px;
+
+    .header-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            gap: 0 30px;
+        }
+
+        a {
+            color: #9597A5;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.108px;
+        }
+
+        .header-link {
+            width: 163px;
+            height: 44px;
+            padding: 8px 34px;
+            border-radius: 22px;
+            background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+            color: #FFF;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+        }
+
+        .header-link:hover {
+            opacity: 0.5;
+        }
+
+        .header-link:active {
+            opacity: 0.3;
+        }
+    }
+}
